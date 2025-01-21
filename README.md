@@ -14,7 +14,7 @@
 3. Configurer Visual Studio pour HoloLens :
    - Sélectionner la configuration `Master`.
    - Choisir l'architecture `ARM64`.  
-   ![Capture d'écran](![Capture d'écran 2025-01-21 172659](https://github.com/user-attachments/assets/55c60163-194f-4f7a-bbc1-3e511946e166))
+     ![Capture d'écran 2025-01-21 172659](https://github.com/user-attachments/assets/55c60163-194f-4f7a-bbc1-3e511946e166)
 4. Dans le menu de sélection de la cible de déploiement, choisir `Ordinateur Distant`.
 
 ### 3. Paramétrage de la connexion
