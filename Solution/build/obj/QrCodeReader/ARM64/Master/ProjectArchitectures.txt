@@ -1,0 +1,1 @@
+C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\QrCodeReader\QrCodeReader.vcxproj;arm64
