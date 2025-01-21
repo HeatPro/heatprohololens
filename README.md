@@ -27,6 +27,9 @@
 8. Définir le mode d'authentification sur `Universel (Protocol non chiffré)`.
 9. Appliquer puis valider.
 
+   ![image](https://github.com/user-attachments/assets/3c4adccc-54e5-4d82-9187-71c4af88c2af)
+
+
 ### 4. Lancer l'application
 10. S'assurer que le PC et l'HoloLens sont connectés au même réseau Wi-Fi.
 11. Sélectionner `Déboguer` > `Executer sans déboguage`.
