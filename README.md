@@ -23,9 +23,12 @@
 ### 3. Paramétrage de la connexion
 5. Ouvrir l'onglet `Projet` > `Propriétés`.
 6. Dans `Propriétés de configurations`, sélectionner `Débogage`.
-7. Renseigner l'adresse IPV4 de l'HoloLens dans `Nom de l'ordinateur` (trouvable dans l'Hololens `Paramètres` > `Réseau et Internet` > `...`.
+7. Renseigner l'adresse IPV4 de l'HoloLens dans `Nom de l'ordinateur` (trouvable dans l'Hololens `Paramètres` > `Mises à jour & Sécurité` > `Pour les développeurs`.
 8. Définir le mode d'authentification sur `Universel (Protocol non chiffré)`.
 9. Appliquer puis valider.
+
+   ![image](https://github.com/user-attachments/assets/3c4adccc-54e5-4d82-9187-71c4af88c2af)
+
 
 ### 4. Lancer l'application
 10. S'assurer que le PC et l'HoloLens sont connectés au même réseau Wi-Fi.
