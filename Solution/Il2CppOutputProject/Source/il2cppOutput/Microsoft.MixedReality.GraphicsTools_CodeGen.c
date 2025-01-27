@@ -29,12 +29,12 @@ static Il2CppMethodPointer s_methodPointers[6] =
 };
 static const int32_t s_InvokerIndices[6] = 
 {
-	10354,
-	11315,
-	11266,
-	10625,
-	10625,
-	11315,
+	10313,
+	11271,
+	11223,
+	10584,
+	10584,
+	11271,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_GraphicsTools_CodeGenModule;
 const Il2CppCodeGenModule g_Microsoft_MixedReality_GraphicsTools_CodeGenModule = 

@@ -398,8 +398,6 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs__144.cpp">
     </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs__145.cpp">
-    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs__15.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs__16.cpp">
@@ -738,12 +736,6 @@
     <ClCompile Include="Source\il2cppOutput\Unity.TextMeshPro__2.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.TextMeshPro__3.cpp">
-    </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\Unity.TextMeshPro__4.cpp">
-    </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\Unity.TextMeshPro__5.cpp">
-    </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\Unity.TextMeshPro__6.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.ARFoundation.cpp">
     </ClCompile>

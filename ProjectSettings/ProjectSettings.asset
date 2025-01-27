@@ -835,7 +835,7 @@ PlayerSettings:
   metroCertificateNotAfter: 80a91213108bdc01
   metroApplicationDescription: Template_3D
   wsaImages: {}
-  metroTileShortName: BarQrCodeReader
+  metroTileShortName: QrCodeReader
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0

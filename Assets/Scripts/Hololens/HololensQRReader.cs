@@ -1,11 +1,13 @@
-using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using ZXing;
 
 public class HololensEasyReaderSample : MonoBehaviour {
 
     [SerializeField]
-    private TextMeshProUGUI resultText;
+    private Image resultImage;
+    [SerializeField]
+    private Sprite loadingSprite;
     [SerializeField]
     private string lastResult = "";
     private float lastScanTime = -30f; 
@@ -27,7 +29,6 @@ public class HololensEasyReaderSample : MonoBehaviour {
     private void Start() {
         SetupWebcamTexture();
         PlayWebcamTexture();
-
         cameraColorData = new Color32[width * height];
     }
 
@@ -49,7 +50,7 @@ public class HololensEasyReaderSample : MonoBehaviour {
         result = barcodeReader.Decode(cameraColorData, width, height); 
         if (result != null) {
             lastScanTime = Time.time;   
-            resultText.text = "Chargement de la page: " + result.Text;
+            resultImage.sprite = loadingSprite;
             print(result.Text);
             Application.OpenURL(result.Text);
         }

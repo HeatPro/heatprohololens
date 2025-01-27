@@ -12,7 +12,6 @@
 #include "utils/New.h"
 
 
-struct HashSet_1_t36691CDF76990042FF32A1B43A64B0DF11F646F8;
 struct HashSet_1_tF586EC91E1F634F49B4E03B8C53E90A5007F3521;
 struct HashSet_1_t0BEABFE0C5271EF509FB06CD311EDC1F3F2B4464;
 struct HashSet_1_t03A6951CB18D4B7088ECC620B1DF43CD0F60E091;
@@ -30,7 +29,6 @@ struct IEqualityComparer_1_tBFCA1E144DE6547CD9F77FA7ED1E1821FE954D52;
 struct IEqualityComparer_1_t121EC9F4FDBEE80ADB035268A0E5A66DC3328BB9;
 struct IEqualityComparer_1_t2CBC1E01F8DDF83EBED512F498266114532DD927;
 struct IEqualityComparer_1_t6F15D34CDBF67D26A3A46F66D08AC7BBE144022A;
-struct List_1_t1E6445CB2FC64C1270D0D8ECF1393DB398C3A286;
 struct List_1_tB29D4BFC3BAB9F740D409256A24C885712CA4C95;
 struct List_1_t37EEF953D1233BB557ED14C44B58A2F30EBE1797;
 struct List_1_t199C19D5E7770FB9897DA7B16E50680B37507895;
@@ -78,11 +76,6 @@ struct NOVTABLE IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C : Il
 {
 	static const Il2CppGuid IID;
 	virtual il2cpp_hresult_t STDCALL IBindableIterable_First_mE23AC28EC9ADCDD2688247217CF40C800E780B97(IBindableIterator_t63CCD2268CEE8AFAB68518869D47C5BDAF72962F** comReturnValue) = 0;
-};
-struct HashSetList_1_t52A6279CDC8FAE4460A87A1B6A5E3437D58F5AE2  : public RuntimeObject
-{
-	List_1_t1E6445CB2FC64C1270D0D8ECF1393DB398C3A286* ___m_InternalList;
-	HashSet_1_t36691CDF76990042FF32A1B43A64B0DF11F646F8* ___m_InternalHashSet;
 };
 struct HashSetList_1_tCF3541C1916DB23E3E8D3E2D2C675B59FE3ACBAF  : public RuntimeObject
 {
@@ -232,100 +225,6 @@ il2cpp_hresult_t IIterable_1_First_m3C4CBD4CBFF5D217BC350258F4FA9D1AC8B7F76C_Com
 il2cpp_hresult_t IIterable_1_First_mA2A1BF30512E655012F26A62FAB85081231FC1D9_ComCallableWrapperProjectedMethod(RuntimeObject* __this, IIterator_1_t6D3C39C75DBE16D2237EC9A0B3E17DA9E379F427** comReturnValue);
 
 
-
-struct HashSetList_1_t52A6279CDC8FAE4460A87A1B6A5E3437D58F5AE2_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<HashSetList_1_t52A6279CDC8FAE4460A87A1B6A5E3437D58F5AE2_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
-{
-	inline HashSetList_1_t52A6279CDC8FAE4460A87A1B6A5E3437D58F5AE2_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<HashSetList_1_t52A6279CDC8FAE4460A87A1B6A5E3437D58F5AE2_ComCallableWrapper>(obj) {}
-
-	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
-	{
-		if (::memcmp(&iid, &Il2CppIUnknown::IID, sizeof(Il2CppGuid)) == 0
-		 || ::memcmp(&iid, &Il2CppIInspectable::IID, sizeof(Il2CppGuid)) == 0
-		 || ::memcmp(&iid, &Il2CppIAgileObject::IID, sizeof(Il2CppGuid)) == 0)
-		{
-			*object = GetIdentity();
-			AddRefImpl();
-			return IL2CPP_S_OK;
-		}
-
-		if (::memcmp(&iid, &Il2CppIManagedObjectHolder::IID, sizeof(Il2CppGuid)) == 0)
-		{
-			*object = static_cast<Il2CppIManagedObjectHolder*>(this);
-			AddRefImpl();
-			return IL2CPP_S_OK;
-		}
-
-		if (::memcmp(&iid, &IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C::IID, sizeof(Il2CppGuid)) == 0)
-		{
-			*object = static_cast<IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C*>(this);
-			AddRefImpl();
-			return IL2CPP_S_OK;
-		}
-
-		if (::memcmp(&iid, &Il2CppIMarshal::IID, sizeof(Il2CppGuid)) == 0)
-		{
-			*object = static_cast<Il2CppIMarshal*>(this);
-			AddRefImpl();
-			return IL2CPP_S_OK;
-		}
-
-		if (::memcmp(&iid, &Il2CppIWeakReferenceSource::IID, sizeof(Il2CppGuid)) == 0)
-		{
-			*object = static_cast<Il2CppIWeakReferenceSource*>(this);
-			AddRefImpl();
-			return IL2CPP_S_OK;
-		}
-
-		*object = NULL;
-		return IL2CPP_E_NOINTERFACE;
-	}
-
-	virtual uint32_t STDCALL AddRef() IL2CPP_OVERRIDE
-	{
-		return AddRefImpl();
-	}
-
-	virtual uint32_t STDCALL Release() IL2CPP_OVERRIDE
-	{
-		return ReleaseImpl();
-	}
-
-	virtual il2cpp_hresult_t STDCALL GetIids(uint32_t* iidCount, Il2CppGuid** iids) IL2CPP_OVERRIDE
-	{
-		Il2CppGuid* interfaceIds = il2cpp_codegen_marshal_allocate_array<Il2CppGuid>(1);
-		interfaceIds[0] = IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C::IID;
-
-		*iidCount = 1;
-		*iids = interfaceIds;
-		return IL2CPP_S_OK;
-	}
-
-	virtual il2cpp_hresult_t STDCALL GetRuntimeClassName(Il2CppHString* className) IL2CPP_OVERRIDE
-	{
-		return GetRuntimeClassNameImpl(className);
-	}
-
-	virtual il2cpp_hresult_t STDCALL GetTrustLevel(int32_t* trustLevel) IL2CPP_OVERRIDE
-	{
-		return ComObjectBase::GetTrustLevel(trustLevel);
-	}
-
-	virtual il2cpp_hresult_t STDCALL IBindableIterable_First_mE23AC28EC9ADCDD2688247217CF40C800E780B97(IBindableIterator_t63CCD2268CEE8AFAB68518869D47C5BDAF72962F** comReturnValue) IL2CPP_OVERRIDE
-	{
-		return IBindableIterable_First_mE23AC28EC9ADCDD2688247217CF40C800E780B97_ComCallableWrapperProjectedMethod(GetManagedObjectInline(), comReturnValue);
-	}
-};
-
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_HashSetList_1_t52A6279CDC8FAE4460A87A1B6A5E3437D58F5AE2(RuntimeObject* obj)
-{
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(HashSetList_1_t52A6279CDC8FAE4460A87A1B6A5E3437D58F5AE2_ComCallableWrapper));
-	if (memory == NULL)
-	{
-		il2cpp_codegen_raise_out_of_memory_exception();
-	}
-
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) HashSetList_1_t52A6279CDC8FAE4460A87A1B6A5E3437D58F5AE2_ComCallableWrapper(obj));
-}
 
 struct HashSetList_1_tCF3541C1916DB23E3E8D3E2D2C675B59FE3ACBAF_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<HashSetList_1_tCF3541C1916DB23E3E8D3E2D2C675B59FE3ACBAF_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
 {
