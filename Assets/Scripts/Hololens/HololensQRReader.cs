@@ -10,6 +10,8 @@ public class HololensEasyReaderSample : MonoBehaviour {
     private Sprite loadingSprite;
     [SerializeField]
     private string lastResult = "";
+    [SerializeField]
+    private Sprite scanSprite;
     private float lastScanTime = -30f; 
     private float cooldownTime = 30f;
 
@@ -43,6 +45,10 @@ public class HololensEasyReaderSample : MonoBehaviour {
     }
 
     private void Update() {
+        if (Time.time - lastScanTime >= cooldownTime)
+        {
+            resultImage.sprite = scanSprite;
+        }
         if (Time.time - lastScanTime < cooldownTime) {
             return;  
         }

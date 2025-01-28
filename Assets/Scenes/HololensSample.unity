@@ -341,6 +341,7 @@ MonoBehaviour:
   resultImage: {fileID: 69130041}
   loadingSprite: {fileID: 21300000, guid: b8e62875d5a2a8b45ab61a99cf937a7e, type: 3}
   lastResult: 
+  scanSprite: {fileID: 21300000, guid: 98d5fa44d3fc763428e547c2dad7c285, type: 3}
 --- !u!4 &222645458
 Transform:
   m_ObjectHideFlags: 0

@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\build\bin\ARM64\Master\AppX</LayoutDir>
-    <RegisteredManifestChecksum>66806C3A61B7F9410186AA30D353DB2CFE23EA44C5BE37FD0E1600EBFB4EBBB2</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>52DEC7B979BC7957623FAEDAC690137ADC388AF4721B27A1DBCB8681D4AE0A12</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>QrCodeReader_1.0.0.0_arm64__bsg1ea4x96rc6</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>QrCodeReader_bsg1ea4x96rc6!App</RegisteredUserModeAppID>
     <RegisteredPackageID>QrCodeReader</RegisteredPackageID>
@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\build\bin\ARM64\Master\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-01-27T12:50:36.690</Modified>
+      <Modified>2025-01-28T13:46:42.681</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\build\bin\ARM64\Master\QrCodeReader.exe">
       <PackagePath>QrCodeReader.exe</PackagePath>
-      <Modified>2025-01-27T12:50:35.405</Modified>
+      <Modified>2025-01-28T13:46:41.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Master\UnityPlayer.winmd">
       <PackagePath>UnityPlayer.winmd</PackagePath>
@@ -94,23 +94,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\QrCodeReader\Data\il2cpp_data\Metadata\global-metadata.dat">
       <PackagePath>Data\il2cpp_data\Metadata\global-metadata.dat</PackagePath>
-      <Modified>2025-01-27T12:24:52.464</Modified>
+      <Modified>2025-01-28T13:45:34.191</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\QrCodeReader\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
-      <Modified>2025-01-27T12:24:52.442</Modified>
+      <Modified>2025-01-28T13:45:34.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\QrCodeReader\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2025-01-27T12:24:11.710</Modified>
+      <Modified>2025-01-28T13:44:58.020</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\QrCodeReader\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2025-01-27T12:24:11.706</Modified>
+      <Modified>2025-01-28T13:44:58.020</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\QrCodeReader\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2025-01-27T12:24:11.702</Modified>
+      <Modified>2025-01-28T13:44:58.015</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\QrCodeReader\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
@@ -118,31 +118,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\QrCodeReader\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2025-01-27T12:24:11.708</Modified>
+      <Modified>2025-01-28T13:44:58.020</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\QrCodeReader\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
-      <Modified>2025-01-27T12:24:11.702</Modified>
+      <Modified>2025-01-28T13:44:58.015</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\QrCodeReader\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2025-01-27T12:24:11.707</Modified>
+      <Modified>2025-01-28T13:44:58.015</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\QrCodeReader\Data\globalgamemanagers.assets.resS">
       <PackagePath>Data\globalgamemanagers.assets.resS</PackagePath>
-      <Modified>2025-01-27T12:24:11.711</Modified>
+      <Modified>2025-01-28T13:44:58.020</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\QrCodeReader\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
-      <Modified>2025-01-27T12:24:11.702</Modified>
+      <Modified>2025-01-28T13:44:58.015</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\QrCodeReader\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
-      <Modified>2025-01-27T12:24:11.703</Modified>
+      <Modified>2025-01-28T13:44:58.025</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\QrCodeReader\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-      <Modified>2025-01-27T12:24:11.721</Modified>
+      <Modified>2025-01-28T13:44:58.025</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\QrCodeReader\Data\RuntimeInitializeOnLoads.json">
       <PackagePath>Data\RuntimeInitializeOnLoads.json</PackagePath>
@@ -162,7 +162,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\QrCodeReader\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2025-01-27T12:24:11.851</Modified>
+      <Modified>2025-01-28T13:44:58.164</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\QrCodeReader\UnityOpenXRHands.dll">
       <PackagePath>UnityOpenXRHands.dll</PackagePath>
@@ -186,7 +186,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\build\bin\ARM64\Master\GameAssembly.dll">
       <PackagePath>GameAssembly.dll</PackagePath>
-      <Modified>2025-01-27T12:50:31.188</Modified>
+      <Modified>2025-01-28T13:46:37.733</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Master\baselib.dll">
       <PackagePath>baselib.dll</PackagePath>
@@ -194,7 +194,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\Downloads\HeatPro\heatprohololens\Solution\build\bin\ARM64\Master\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-01-27T12:50:36.255</Modified>
+      <Modified>2025-01-28T13:46:42.247</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
