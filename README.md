@@ -49,3 +49,6 @@
 
 -> Une page web contenant la fiche constructeur de la machine en intervention devrait s'ouvrir !
 
+
+
+Contact : lucie.andres@etu.unice.fr
